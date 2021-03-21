@@ -1,0 +1,131 @@
+body
+{ 
+margin-top: 130px; 
+}
+.text-wrap
+{
+    word-wrap: break-word;
+}
+.navbar-brand
+{
+    font-size: 1.5rem;
+}
+hr
+{
+    border-top: 1px solid #343a40;
+    opacity: .7;
+    width: 80%;
+    margin: 3rem auto;
+    border-radius: 10px;
+}
+.icons
+{
+    display: list-item;
+    list-style: none;
+    transition: 0.3s ease-in-out;
+}
+.hatter-elut
+{
+    background-color: #dee2e6;
+}
+
+.dropdown-item:hover, .dropdown-item:active, .dropdown-item:focus
+{
+    color: white;
+    background-color: #17a2b8;
+    cursor: pointer;
+}
+
+.nav-link.active
+{
+    color: #17a2b8!important;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.navbar-brand, .nav-link, .navbar-toggler, #search
+{
+    transition: 0.3s ease-in-out;
+}
+.navbar-brand:hover, .navbar-brand:active, .navbar-brand:focus
+{
+    color: #17a2b8!important;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.nav-link:hover, .navbar-toggler
+{
+    color: #17a2b8!important;
+    opacity: 1;
+}
+
+#search:hover
+{
+    background-color: #17a2b8!important;
+    color: white;
+    border: 1px solid #17a2b8!important;
+}
+
+.icons:hover, .dropdown-item.active
+{
+    background-color: #17a2b8!important;
+}
+
+img[title="Autós kép"], img[title="Festmény"], img[title="Portré"], img[title="Csendélet"], img[title="2020 Nyár"], img[title="2020 Esküvő"], img[title="2020 Összegzés"], img[title="2021 Tavasz"]
+{
+    opacity: 0.93;
+}
+
+img[title="Autós kép"]:hover, img[title="Festmény"]:hover, img[title="Portré"]:hover, img[title="Csendélet"]:hover, img[title="2020 Nyár"]:hover, img[title="2020 Esküvő"]:hover, img[title="2020 Összegzés"]:hover, img[title="2021 Tavasz"]:hover
+{
+    opacity: 1;
+    cursor: zoom-in;
+}
+
+#arrow
+{
+    transition: 0.3s ease-in-out;
+}
+#arrow:hover
+{
+    color: #17a2b8!important;
+}
+
+#arrow-disable
+{
+    display: none!important;
+}
+
+@media (max-width: 600px)
+{
+    .form-inline
+    {
+        display: none
+    }
+    .navbar-brand
+    {
+        font-size: 1.1rem;
+        padding: 0;
+        margin: 0;
+    }
+}
+@media (min-width: 1200px)
+{
+    
+    #tunes
+    {
+        display: none;
+    }
+    .margin-divider
+    {
+        margin-bottom: 48px;
+    }
+}
+@media (min-width: 800px)
+{
+    .icons
+    {
+        display: inline;
+    }
+}
